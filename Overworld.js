@@ -10,6 +10,12 @@ class Overworld {
     image.onload = () => {
       this.ctx.drawImage(image, 0, 0);
     };
-    image.src = "/Users/tommann/ProjectIOM/PIOM/MAPS/demomap.png";
+    image.src = "/PIOM/MAPS/demomap.png";
+
+    const hero = new Image();
+    hero.onload = () => {
+      this.cty.drawImage(hero, 0, 0)
+    };
+    hero.src = "/PIOM/CHARS/mainchar.png";
   }
 }
