@@ -53,7 +53,7 @@ class OverworldMap {
 
 window.OverworldMaps = {
   DemoRoom: {
-    lowerSrc: "/PIOM/MAPS/biggerandbetter2.png",
+    lowerSrc: "/PIOM/MAPS/bigBoy.png",
     upperSrc: "",
 
     gameObjects: {
@@ -65,9 +65,15 @@ window.OverworldMaps = {
       }),
 
       npc1: new Person({
-        x: utils.withGrid(6),
-        y: utils.withGrid(37),
+        x: utils.withGrid(15),
+        y: utils.withGrid(34),
         src: "/PIOM/CHARS/rachel.png",
+      }),
+
+      fisherman: new Person({
+        x: utils.withGrid(22),
+        y: utils.withGrid(38),
+        src: "/PIOM/CHARS/fisherman.png",
       }),
 
       redBoat: new Person({
@@ -130,7 +136,63 @@ window.OverworldMaps = {
       [utils.asGridCoord(47, 37)]: true,
       [utils.asGridCoord(48, 37)]: true,
       [utils.asGridCoord(49, 37)]: true,
-      //  sea and bridge
+      //  ^ sea and bridge
+      [utils.asGridCoord(6, 36)]: true,
+      [utils.asGridCoord(6, 35)]: true,
+      [utils.asGridCoord(6, 34)]: true,
+      [utils.asGridCoord(6, 33)]: true,
+      [utils.asGridCoord(5, 33)]: true,
+      [utils.asGridCoord(4, 33)]: true,
+      [utils.asGridCoord(3, 33)]: true,
+      [utils.asGridCoord(2, 33)]: true,
+      [utils.asGridCoord(1, 33)]: true,
+      [utils.asGridCoord(0, 33)]: true,
+      [utils.asGridCoord(0, 34)]: true,
+      [utils.asGridCoord(0, 35)]: true,
+      [utils.asGridCoord(0, 36)]: true,
+      // ^ martyr's bay building
+      [utils.asGridCoord(6, 28)]: true,
+      [utils.asGridCoord(6, 27)]: true,
+      [utils.asGridCoord(6, 26)]: true,
+      [utils.asGridCoord(6, 25)]: true,
+      [utils.asGridCoord(5, 25)]: true,
+      [utils.asGridCoord(4, 25)]: true,
+      [utils.asGridCoord(3, 25)]: true,
+      [utils.asGridCoord(2, 25)]: true,
+      [utils.asGridCoord(1, 25)]: true,
+      [utils.asGridCoord(0, 25)]: true,
+      [utils.asGridCoord(0, 26)]: true,
+      [utils.asGridCoord(0, 27)]: true,
+      [utils.asGridCoord(0, 28)]: true,
+      [utils.asGridCoord(1, 28)]: true,
+      [utils.asGridCoord(2, 28)]: true,
+      [utils.asGridCoord(3, 28)]: true,
+      [utils.asGridCoord(4, 28)]: true,
+      [utils.asGridCoord(5, 28)]: true,
+      // ^ sound of iona shop
+      [utils.asGridCoord(14, 28)]: true,
+      [utils.asGridCoord(15, 28)]: true,
+      [utils.asGridCoord(16, 28)]: true,
+
+      [utils.asGridCoord(18, 28)]: true,
+      [utils.asGridCoord(19, 28)]: true,
+      [utils.asGridCoord(20, 28)]: true,
+      [utils.asGridCoord(20, 27)]: true,
+      [utils.asGridCoord(20, 26)]: true,
+      [utils.asGridCoord(20, 25)]: true,
+      [utils.asGridCoord(19, 25)]: true,
+      [utils.asGridCoord(18, 25)]: true,
+      [utils.asGridCoord(17, 25)]: true,
+      [utils.asGridCoord(16, 25)]: true,
+      [utils.asGridCoord(15, 25)]: true,
+      [utils.asGridCoord(14, 25)]: true,
+      [utils.asGridCoord(14, 28)]: true,
+      [utils.asGridCoord(14, 27)]: true,
+      [utils.asGridCoord(14, 26)]: true,
+      [utils.asGridCoord(14, 25)]: true,
+      [utils.asGridCoord(17, 27)]: true,
+      [utils.asGridCoord(17, 26)]: true,
+      // ^ building in front of jetty
     },
   },
 };
