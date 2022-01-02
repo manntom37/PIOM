@@ -53,7 +53,7 @@ class OverworldMap {
 
 window.OverworldMaps = {
   DemoRoom: {
-    lowerSrc: "/PIOM/MAPS/bigBoy.png",
+    lowerSrc: "/PIOM/MAPS/bigBoy2.png",
     upperSrc: "",
 
     gameObjects: {
@@ -61,7 +61,7 @@ window.OverworldMaps = {
         isPlayerControlled: true,
         x: utils.withGrid(14),
         y: utils.withGrid(39),
-        src: "/PIOM/CHARS/mainchar2.png",
+        src: "/PIOM/CHARS/heroNew.png",
       }),
 
       npc1: new Person({
@@ -74,12 +74,6 @@ window.OverworldMaps = {
         x: utils.withGrid(22),
         y: utils.withGrid(38),
         src: "/PIOM/CHARS/fisherman.png",
-      }),
-
-      redBoat: new Person({
-        x: utils.withGrid(5),
-        y: utils.withGrid(39),
-        src: "/PIOM/MAPS/redBoat.png",
       }),
     },
     walls: {
@@ -150,7 +144,7 @@ window.OverworldMaps = {
       [utils.asGridCoord(0, 34)]: true,
       [utils.asGridCoord(0, 35)]: true,
       [utils.asGridCoord(0, 36)]: true,
-      // ^ martyr's bay building
+      // ^ building left down of bridge
       [utils.asGridCoord(6, 28)]: true,
       [utils.asGridCoord(6, 27)]: true,
       [utils.asGridCoord(6, 26)]: true,
@@ -169,11 +163,10 @@ window.OverworldMaps = {
       [utils.asGridCoord(3, 28)]: true,
       [utils.asGridCoord(4, 28)]: true,
       [utils.asGridCoord(5, 28)]: true,
-      // ^ sound of iona shop
+      // ^ shop left above ^
       [utils.asGridCoord(14, 28)]: true,
       [utils.asGridCoord(15, 28)]: true,
       [utils.asGridCoord(16, 28)]: true,
-
       [utils.asGridCoord(18, 28)]: true,
       [utils.asGridCoord(19, 28)]: true,
       [utils.asGridCoord(20, 28)]: true,
@@ -192,7 +185,7 @@ window.OverworldMaps = {
       [utils.asGridCoord(14, 25)]: true,
       [utils.asGridCoord(17, 27)]: true,
       [utils.asGridCoord(17, 26)]: true,
-      // ^ building in front of jetty
+      // ^ tavern
     },
   },
 };
