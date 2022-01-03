@@ -17,7 +17,7 @@ class Person extends GameObject {
     if (this.movingProgressRemaining > 0) {
       this.updatePosition();
     } else {
-      //More cases for starting to walk will come here
+      //More cases for starting to walk tbc
       //
       //
 

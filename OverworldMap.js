@@ -70,11 +70,11 @@ window.OverworldMaps = {
         src: "/PIOM/CHARS/rachel.png",
       }),
 
-      fisherman: new Person({
-        x: utils.withGrid(22),
-        y: utils.withGrid(38),
-        src: "/PIOM/CHARS/fisherman.png",
-      }),
+      // fisherman: new Person({
+      //   x: utils.withGrid(22),
+      //   y: utils.withGrid(38),
+      //   src: "/PIOM/CHARS/fisherman.png",
+      // }),
     },
     walls: {
       //  sea and bridge
@@ -185,7 +185,7 @@ window.OverworldMaps = {
       [utils.asGridCoord(14, 25)]: true,
       [utils.asGridCoord(17, 27)]: true,
       [utils.asGridCoord(17, 26)]: true,
-      // ^ tavern
+      // ^ tavern?
     },
   },
 };
