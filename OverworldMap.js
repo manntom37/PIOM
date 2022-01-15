@@ -70,6 +70,28 @@ window.OverworldMaps = {
         src: "/PIOM/CHARS/rachel.png",
       }),
 
+      guard: new Person({
+        x: utils.withGrid(14),
+        y: utils.withGrid(13),
+        src: "/PIOM/CHARS/guard1.png",
+      }),
+
+      guard2: new Person({
+        x: utils.withGrid(6),
+        y: utils.withGrid(13),
+        src: "/PIOM/CHARS/guard1.png",
+      }),
+
+      guard3: new Person({
+        x: utils.withGrid(8),
+        y: utils.withGrid(20),
+        src: "/PIOM/CHARS/guard1.png",
+      }),
+      guard4: new Person({
+        x: utils.withGrid(12),
+        y: utils.withGrid(20),
+        src: "/PIOM/CHARS/guard1.png",
+      }),
       // fisherman: new Person({
       //   x: utils.withGrid(22),
       //   y: utils.withGrid(38),
