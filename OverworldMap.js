@@ -53,7 +53,7 @@ class OverworldMap {
 
 window.OverworldMaps = {
   DemoRoom: {
-    lowerSrc: "/PIOM/MAPS/bigBoy2.png",
+    lowerSrc: "/PIOM/MAPS/bigBoy.png",
     upperSrc: "",
 
     gameObjects: {
