@@ -467,7 +467,7 @@ window.OverworldMaps = {
         src: "/PIOM/CHARS/rachel.png",
         talking: [
           {
-            events: [{ type: "textMessage", text: "Lia: He said he left you a file on the computer!", faceHero: ["npc2"] }],
+            events: [{ type: "textMessage", text: "He said he left you a file on the computer!", faceHero: ["npc2"] }],
           },
         ],
       }),

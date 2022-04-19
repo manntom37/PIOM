@@ -81,14 +81,14 @@ startMap(mapConfig) {
       { who: "npc1", type: "walk", direction: "down" },
       { who: "npc1", type: "walk", direction: "left" },
       { who: "npc1", type: "stand", direction: "down", time: 400 },
-      { type: "textMessage", text: "Lia: Ah! Tom said you'd be stopping by!" },
+      { type: "textMessage", text: "Ah! Tom said you'd be stopping by!" },
       {
         type: "textMessage",
-        text: "Lia: He left something for you in the Information Centre behind me.",
+        text: "He left something for you in the Information Centre behind me.",
       },
       {
         type: "textMessage",
-        text: "Lia: There's no rush. Feel free to look around, take in the sights, talk to the locals, listen to the sounds!",
+        text: "There's no rush. Feel free to look around, take in the sights, talk to the locals, listen to the sounds!",
       },
     ]);
   }
